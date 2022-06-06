@@ -1,7 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import axios from "axios";
+
+
 import Card from '../components/Card';
+import Header from "../components/Header";
 
 import classes from "./Home.module.css";
 
@@ -28,7 +31,7 @@ const [users, setUsers] = useState([]);
 
   return (
     <div className={classes.home}>
-
+            <Header/>
             <div className={classes.users}>
             {users && users.map((user)=>(
                 <Card key={user.id} user={user} />

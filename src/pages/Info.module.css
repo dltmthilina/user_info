@@ -1,9 +1,11 @@
 .info{
     display: flex;
-    
-    justify-content: center;
-   
-    margin-top: 10rem;
-    
+    flex-direction: column;
+}
 
+button{
+    background-color: rgb(65, 180, 226);
+    height: 3rem;
+    color: white;
+    text-align: left;
 }

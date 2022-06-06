@@ -1,8 +1,10 @@
 .header{
     text-align: center;
-    background-color: aqua;
-    height: 3rem;
+    background-color:rgb(65, 180, 226);
+    height: 5rem;
     width: 100%;
     position:relative;
+    color: white;
+    
     
 }

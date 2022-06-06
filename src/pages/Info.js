@@ -1,11 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, useNavigate } from 'react-router-dom'
 import Model from '../components/Model';
 import classes from "./Info.module.css";
 
 export default function Info() {
+
+  const navigate = useNavigate();
+
+  const goHome=()=>{
+    navigate("/");
+  }
 
   let [searchParams]= useSearchParams();
   let id =searchParams.get('id')
@@ -31,6 +37,7 @@ export default function Info() {
 
   return (
     <div className={classes.info}>
+      <button onClick={goHome}>Back</button>
     <Model user={user}/>
     </div>
   )

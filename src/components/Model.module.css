@@ -4,6 +4,8 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
+    margin-top: 6rem;
 
 }
 
