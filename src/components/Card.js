@@ -19,7 +19,7 @@ function Card({user}) {
       <>
             <div className={classes.card} key={user.id} style={{cursor:"pointer"}} onClick={()=>handleOpen(user.id)}>
                 <div className={classes.image}>
-                <img className= {classes.avatar} src={user.avatar}/>
+                <img  src={user.avatar} alt= {`{user.first_name}`}/>
                 </div>
                 <div className={classes.details}>
                     <strong>{user.first_name}</strong>

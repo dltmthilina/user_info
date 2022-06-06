@@ -30,10 +30,7 @@ export default function Info() {
     }
 
     fetchUser();
-    
     },[])
-
-  
 
   return (
     <div className={classes.info}>

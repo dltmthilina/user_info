@@ -9,7 +9,7 @@ function Model({user}) {
   return (
     <div className={classes.model}>
         <div className={classes.image}>
-            <img className={classes.avatar} src={user.avatar} alt= {`{user.first_name} image`}/> 
+            <img src={user.avatar} alt= {`{user.first_name}`}/> 
         </div>
         <div className={classes.description}>
             <table>
