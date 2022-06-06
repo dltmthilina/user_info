@@ -1,0 +1,34 @@
+.model{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+
+.avatar{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.description{
+    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+}
+
+table{
+    overflow-x: auto;
+}
+
+td {
+   padding: 1.5rem;
+   
+}
+
+
